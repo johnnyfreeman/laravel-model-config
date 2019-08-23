@@ -1,6 +1,21 @@
 {
     "name": "johnnyfreeman/laravel-model-config",
     "description": "config() for your laravel models",
-    "license": "mit",
-    "require": {}
+    "keywords": ["laravel", "model", "config"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "5.8.*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JohnnyFreeman\\LaravelModelConfig\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
