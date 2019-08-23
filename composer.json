@@ -1,0 +1,6 @@
+{
+    "name": "johnnyfreeman/laravel-model-config",
+    "description": "config() for your laravel models",
+    "license": "mit",
+    "require": {}
+}
