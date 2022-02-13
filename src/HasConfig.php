@@ -9,7 +9,7 @@ trait HasConfig
     /**
      * Get the config attribute.
      *
-     * @param json $config
+     * @param string $config
      * @return mixed
      */
     public function getConfigAttribute($config)
