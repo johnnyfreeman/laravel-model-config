@@ -3,9 +3,6 @@
     "description": "config() for your laravel models",
     "keywords": ["laravel", "model", "config"],
     "license": "MIT",
-    "require": {
-        "laravel/framework": "5.8.*"
-    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
@@ -17,5 +14,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "illuminate/config": "^9.0"
+    }
 }
